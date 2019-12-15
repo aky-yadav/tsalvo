@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+p{
+    margin-top: 0;
+}
+
+textarea{
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#funding_page{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  background-color: #ffffff;
+}
+
+/*   left side  */
+#leftside{
+  display: flex;
+  flex-direction: column;
+  width:820px;
+  height: 1080px;
+  position:absolute;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-family: Arial;
+}
+
+.DTU{
+  width: 60px;
+  font-size: 19px;
+  line-height: 1.79;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #25ba96;
+  margin: 12px 0 0 26px;
+}
+
+.logos{
+  margin-top: 92px;
+  align-self: center;
+}
+
+.logo {
+  width: 162px;
+  height: 78px;
+  object-fit: contain;
+}
+.tsalvo-copy {
+  margin-left: 34px;
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+}
+
+.Contribute-to-Innovation {
+  margin-top: 62px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #25ba96;
+}
+
+.Vision-to-contribute{
+  margin: 32.8px 100px 0 100px;
+  font-size: 25px;
+  line-height: 1.36;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #505050;
+}
+
+.DONATE-TO-INSTITUTE{
+  margin-top: 40.8px;
+  width: 662px;
+  height: 85.4px;
+  background-color: #25ba96;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.EXPLORE-TSALVO {
+  margin-top: 57.6px;
+  width: 662px;
+  height: 85.4px;
+  background-color: #ffaa81;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 0.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  align-self: center;
+  border-radius: 5px;
+}
+
+/*  main */
+#main {
+  margin-left: 820px;
+  width: 1920px;
+  background-color: #d8d8d8;
+  font-family: Arial;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+.funding_page_main{
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  margin: 34px 37px;
+}
+.funding_page_topbar{
+  display: inline;
+}
+.funding_page_topbar-search{
+  width: 635px;
+  display:inline-block;
+  }
+.Search-campaigns {
+  width: 544px;
+  height: 63px;
+  border-radius: 17px 0 0 17px;
+  padding-left: 26px;
+  border: solid 1px #bbbbbb;
+  border-right: 0px;
+  background-color:#ffffff;
+  font-size: 15px;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.Search_button{
+  float: right;
+  width: 64px;
+  height: 67px;
+  border-radius:0 17px 17px 0;
+  background-color: #ffffff;
+  border: solid 1px  #bbbbbb;
+  border-left: 0px;
+  color: #7d7d7d;
+}
+.filter{
+  padding-top: 15px;
+  height: 67px;
+  float: right;
+  color: #ffffff;
+  cursor:pointer;
+  display: inline;
+  margin-right: 88.5px;
+}
+.options{
+  padding-top: 15px;
+  height: 67px;
+  float: right;
+  color: #ffffff;
+  cursor:pointer;
+  display: inline;
+  align-self: center;
+}
+.templates{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 52.5px;
+  grid-row-gap: 37px;
+}
+
+.card{
+  width: 215px;
+  height: 381.1px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 4px 0 rgba(140, 140, 140, 0.16);
+  border: solid 1px #f1f1f1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.Fire-Safety-Project {
+  width: 215px;
+  height: 143px;
+  object-fit: contain;
+}
+.Fire-Project {
+  margin: 8px 0 0 15px;
+  width: 105px;
+  height: 26px;
+  font-family: ProximaNova;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 2.68;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #2c2c2c;
+}
+.fire-content {
+  margin: 11.8px 16px 0 15.9px;
+  width: 183.1px;
+  height: 64.4px;
+  font-family: ProximaNova;
+  font-size: 13px;
+  line-height: 1.31;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color: #505050;
+}
+
+.raised_amount{
+  margin: 10.8px 0 0 15.9px;
+  width: 108px;
+  height: 16px;
+  font-family: ProximaNova;
+  font-size: 17px;
+  line-height: 1.35;
+  letter-spacing: 0.29px;
+  text-align: left;
+  color: #2c2c2c;
+}
+.slider {
+  margin: 5.8px 0 0 15.9px;
+  -webkit-appearance: none;
+  width: 184.2px;
+  height: 11.4px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  width: 11.4px;
+  height: 11.4px;
+  background: #25ba96;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 11.4px;
+  height: 11.4px;
+  border-radius: 3px;
+  background: #25ba96;
+  cursor: pointer;
+}
+.raised_percent{
+  margin: 4.7px 0 0 15.7px;
+  width: 21px;
+  height: 15px;
+  font-family: ProximaNova;
+  font-size: 11px;
+  line-height: 1.55;
+  letter-spacing: 0.19px;
+  text-align: left;
+  color: #2c2c2c;
+}
+.DAYS-REMAINING {
+  margin: 4.7px 16px 0 0;
+  float: right;
+  width: 115px;
+  height: 15px;
+  font-family: ProximaNova;
+  font-size: 11px;
+  line-height: 1.27;
+  letter-spacing: 0.19px;
+  text-align: center;
+  color: #2c2c2c;
+}
+.Donate-Now {
+  margin-top: 21.4px;
+  width: 114.2px;
+  height: 24.9px;
+  border-radius: 4px;
+  background-color: #25ba96;
+  font-family: ProximaNova;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.17px;
+  text-align: center;
+  color: #ffffff;
+  align-self: center;
+}
